@@ -1,0 +1,12 @@
+import Styles from './sass/styles.scss'
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { BrowserRouter } from 'react-router-dom'
+import App from './views/App.jsx'
+
+ReactDOM.render(
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>,
+    document.querySelector('#app')
+)
